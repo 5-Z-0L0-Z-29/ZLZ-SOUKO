@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<cu-custom bgColor="bg-blue light" isBack="{{false}}"> 
+	<view slot="content">三院科协-签到</view>
+</cu-custom>
+
+  <view  class="kuang">
+  <text  class="text-grey">请输入学号</text>
+    <input value="{{previousSno}}" bindinput="getSno" class="in" type="text"/>
+  </view>
+  <button bindtap="signIn" style="width: 20%; margin: 25rpx;" class="cu-btn round bg-blue button-hover shadow  ">签到</button>
+  <button bindtap="signOut" style="width: 20%;"  class="cu-btn round line-black button-hover ">签退</button>
+

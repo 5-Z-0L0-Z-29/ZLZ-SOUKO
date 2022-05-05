@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/sign/sign",
+    "pages/index/index",
+    "pages/newsTop/newsTop",
+    "pages/oldsTop/oldsTop",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "backgroundTextStyle": "dark",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/newsTop/newsTop",
+        "text": "新人"
+      },
+      {
+        "pagePath": "pages/oldsTop/oldsTop",
+        "text": "老人"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

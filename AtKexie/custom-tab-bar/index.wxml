@@ -1,0 +1,29 @@
+<!--custom-tab-bar/custom-ta.wxml-->
+<view class="cu-bar shadow tabbar pos-bottom  bg-white">
+    <view class="action " data-index="0"  bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image class="{{selected==0?'active':''}}" src="/images/tabbar/home2{{selected==0?'Selected':''}}.png"></image>
+      </view>
+      <view class="{{selected==0?'text-blue':'text-gray'}}">首页</view>
+    </view>
+    <view class="action " data-index="1" bindtap="switchTab">
+      <view class="cuIcon-cu-image animation-{{animation?'scale-up':''}}"  >
+        <image  class="{{selected==1?'active':''}}" src="/images/tabbar/news{{selected==1?'Selected':''}}.png"></image>
+      </view>
+      <view class="{{selected==1?'text-blue':'text-gray'}}">新人</view>
+    </view>
+    <view class="action" data-index="2" bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image  class="{{selected==2?'active':''}}" src="/images/tabbar/olds{{selected==2?'Selected':''}}.png"></image>
+     
+      </view>
+      <view class="{{selected==2?'text-blue':'text-gray'}}">老人</view>
+    </view>
+    <view class="action" data-index="3" bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image  class="{{selected==3?'active':''}}" src="/images/tabbar/about{{selected==3?'Selected':''}}.png"></image>
+     
+      </view>
+      <view class="{{selected==3?'text-blue':'text-gray'}}">关于</view>
+    </view>
+</view>

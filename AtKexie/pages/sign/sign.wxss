@@ -1,0 +1,11 @@
+/**index.wxss**/
+.kuang{
+margin: 25rpx 50rpx;  
+}
+.in{
+   margin:5rpx 0 ;
+  border-bottom: #58a1e6 1px solid;
+}
+.title{
+  display: flex;
+}

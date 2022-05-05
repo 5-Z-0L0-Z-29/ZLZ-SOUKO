@@ -1,0 +1,95 @@
+/* pages/index/index.wxss */
+.nav{
+  
+  margin: 25rpx;
+  display: flex;
+  padding: 16rpx 32rpx;
+  border-radius: 8rpx;
+}
+.Icon{
+  font-size: 48rpx;
+  margin-right: 32rpx;
+}
+.kuang{
+  margin: 25rpx 50rpx;  
+  }
+  .in{
+    margin:5rpx 0 ;
+   border-bottom: #58a1e6 1px solid;
+ }
+ .title{
+   display: flex;
+   flex-direction: column;
+ }
+ .search{
+   display: flex;
+   margin-top: 50rpx;
+ }
+ .search_input{
+   flex: 1 1 auto;
+   
+ }
+ .head
+ {
+   width: 150%;
+   display: flex;
+   flex-wrap: nowrap;
+   border-bottom: 1px solid rgba(0,0,0,.12);
+ }
+ .h_item{
+   text-align: center;
+    width: 500rpx;
+    padding: 16rpx 0rpx;
+    margin: auto;
+ }
+.h_body{
+  display: block;
+  width: 150%;
+}
+.b_item
+{
+  flex-wrap: nowrap;
+  display: flex;
+  padding: 16rpx 0rpx;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+}
+.b_item_id,.b_item_name,.b_item_dept,.b_item_location{
+  margin: auto 0px;
+   width: 20%;
+   text-align: center;
+  
+}
+.card_bottom{
+  padding-top: 50rpx;
+  display: flex;
+ /* float: right; */
+ 
+}
+.selectCount{
+  margin-left: 25rpx;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #8d8c8c ;
+}
+.select_box{
+  position: absolute;
+  left: 280rpx;
+  bottom: 100rpx;
+  padding: 15rpx 0;
+  box-shadow: 0 0 5px #525252;
+  width: 100rpx;
+  height: auto;
+}
+.select_one{
+height: 50rpx;
+line-height: 50rpx;
+width: 100%;
+text-align: center;
+}
+.curnum{
+  margin-left: 25rpx;
+}
+.arrow{
+  margin-left: 50rpx;
+  display: flex;
+}

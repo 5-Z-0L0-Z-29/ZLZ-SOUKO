@@ -1,0 +1,20 @@
+<!--pages/about/about.wxml-->
+<cu-custom bgColor="bg-blue light" isBack="{{false}}">
+	<!-- <view slot="backText">返回</view> -->
+	<view slot="content">关于</view>
+</cu-custom>
+<view style="padding: 50rpx 25rpx;display: flex;flex-direction: column;">
+<text style="width: 100%;  font-size: 36rpx;">以下内容你需要了解的:</text>
+<text style="width: 100%; font-size: 32rpx;">
+  1.新来的萌新每周需要打卡18小时（后续以管理层决定的时间为准),不足的会有相应的惩罚。
+</text>
+<text style="width: 100%; font-size: 32rpx;">
+  2.允许的签到签退时间为: 6:00-23:30 (星期天-星期四)，6:00-24:00 (星期五-星期六),到时间系统会自动清退用户,用户此次记录并且不会被记录，所以要记得签退，同时向用户发邮件提醒。
+</text>
+<text style="width: 100%; font-size: 32rpx;">
+  3.禁止刷时间，恶意举报。
+</text>
+<text style="width: 100%; font-size: 32rpx;">
+  4.有Bug请联系 QQ：1742137309
+</text>
+</view>

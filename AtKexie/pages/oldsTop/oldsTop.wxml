@@ -1,0 +1,30 @@
+<!--pages/oldsTop/oldsTop.wxml-->
+<cu-custom bgColor="bg-blue light" isBack="{{false}}">
+	<!-- <view slot="backText">返回</view> -->
+	<view slot="content">老人</view>
+</cu-custom>
+<view   class="padding radius shadow bg-white margin" >
+<view style=" font-size: 36rpx;font-weight: bold; text-align: center;" class="text-red ">周签到时长</view>
+<view  class="echart_panel"> 
+<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ echartBar}}"></ec-canvas>
+</view>
+</view>
+<view style="position:relative;" class="padding radius shadow-warp bg-white margin">
+ <scroll-view scroll-x  enable-flex  style=" width:100%;margin-top: 25rpx;">
+ <view class="head">
+<view class="h_item" wx:for="{{tags}}" wx:key="index">
+ {{item.name}}
+ </view>
+ </view>
+ <view class="h_body">
+<view  class="b_item" wx:for="{{objUser}}" wx:key="index">
+<view class="b_item_id" >{{item.userId}}</view>
+<view class="b_item_name">{{item.userName}}</view>
+<view class="b_item_dept">{{item.userDept}}</view>
+<view class="b_item_location">{{item.userLocation}}</view>
+<view class="b_item_location">{{item.totalTime}}</view>
+<view class="b_item_location">{{index+1}}</view>
+</view>
+</view>
+ </scroll-view>
+  </view>
